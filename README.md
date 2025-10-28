@@ -1,30 +1,18 @@
-# 🗂️ File Organizer (Python)
+# File Organizer (Python)
 
-A Python script that automatically organizes files in a directory by their file types.  
-It uses the `os` and `shutil` modules to move files into categorized folders such as Images, Documents, Audio, and Videos.
+This is a small Python project I created to organize files in a folder automatically.  
+It helps clean up messy folders by moving files into separate folders based on their type (like Images, Documents, Videos, etc.).  
+I made this project to practice working with the `os` and `shutil` modules in Python.
 
----
+## Features
+- Automatically sorts files into folders based on their extensions  
+- Creates folders such as Images, Documents, Music, Videos, and Others  
+- Skips already organized files to avoid duplicates  
+- Works for any folder you select  
+- Simple and easy to use from the command line  
 
-## 🚀 Features
-- Organizes files by type (Images, Documents, Audio, etc.)
-- Creates folders automatically if they don’t exist
-- Moves unknown file types into an “Others” folder
-- Beginner-friendly and easy to use
-
----
-
-## 🧠 Concepts Used
-- File Handling
-- Loops and Conditional Statements
-- Dictionary Data Structure
-- OS and Shutil Modules
-
----
-
-## ⚙️ How to Run
-1. Save the code as **file_organizer.py**
-2. Open a terminal or command prompt
-3. Run the script using:
+## How to Run
+1. Install Python 3 on your computer.  
+2. Download or clone this repository:
    ```bash
-   python file_organizer.py
    
